@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>INTRODUCING MY PROFILE </title>
+   <style>
+        body{
+
+                font-family:sans-serif;
+                margin:0;
+                padding:0;
+                background-color: #f9f9f9;
+        }
+        header{
+                color: midnightblue;
+                background-color: lightpink;
+                text-align: center;
+                padding: 20px;
+        }
+
+        nav{
+                 background-color: plum; 
+                 padding: 20px 0;           
+                 margin-top: 20px;         
+                 height: 60px; 
+        }
+                
+        .menu{
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                justify-content: center;
+                gap:20px;
+
+        }
+        .menu li {
+                display: inline-block;
+        }
+        .menu a {
+                  text-decoration: none;
+                  font-size: 25px;
+                  color: #333;
+                  font-family: 'Arial', sans-serif;
+                  text-align: center;
+                  padding: 14px 16px;
+        }
+        .menu a:hover:not(.active){
+                 color: #ff69b4;
+        }
+
+        .profile-box {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color:  #FAF0E6; 
+                border: 4px solid #FFB6C1; 
+                padding: 30px;
+                margin: 50px auto;
+                border-radius: 15px;
+            }
+
+        .profile-picture {
+                width: 150px;
+                height: 150px;
+                margin-right: 30px;
+                border-radius: 50%; 
+                overflow: hidden;
+                border: 5px solid #4B0082; 
+        }
+
+        .profile-picture img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover; 
+        }
+
+        .profile-info h2 {
+                font-size: 28px;
+                color: #4B0082; 
+                margin-bottom: 10px;
+        }
+        section {
+                background-color: #FAF0E6; 
+                width: 80%;
+                max-width: 900px;
+                margin: 40px auto;
+                padding: 30px;
+                border-radius: 15px;
+                border: 4px solid #FFB6C1;
+        }
+
+        h2 {
+                color: #4B0082; 
+                margin-bottom: 20px;
+                font-size: 28px;
+        }
+
+        p {
+                color: #333;
+                font-size: 18px;
+                line-height: 1.6;
+        }
+
+        ul {
+                list-style-type: disc;
+                padding-left: 20px;
+                font-size: 16px;
+        }
+
+        ul li {
+                margin-bottom: 10px;
+        }
+
+
+        footer {
+                text-align: center;
+                padding: 20px;
+                background-color:lightpink; 
+                margin-top: 50px;
+                color: #f9f9f9; 
+        }
+
+
+
+
+   </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 40px;"><img src="https://cdn-icons-png.flaticon.com/512/740/740909.png"width="85px" height="95px">INTRODUCING MY PROFILE</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills" >Skills</a></li> 
+                <li><a href="#project">Project</a></li>
+                <li><a href="#hobby">Hobby</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </header>
+     <section class="profile-box">
+        <div class="profile-picture">
+            <img src="https://m.media-amazon.com/images/I/41mSIgdsHvL._AC_UF1000,1000_QL80_.jpg"alt="Your Name">
+        </div>
+        <div class="profile-info">
+            <h2>Hello I am Shivani Ghadage!</h2>
+            <p style="color: plum;">Aspiring Software Engineer</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer who loves creating beautiful and functional websites. I enjoy problem-solving and learning new technologies.</p>
+        </div>
+    </section>
+
+    <section id ="skills" class="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>HTML & CSS</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="project" class="projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <p>Here are some of the projects I’ve worked on:</p>
+            <ul>
+                <li>Project 1: A simple model of EV charging points</li>
+                <li>Project 2: E-commerce website for online shopping</li>
+                <li>Project 3: Women empowerment website</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="hobbies" class="hobbies">
+        <div class="section-content">
+            <h2>Hobbies</h2>
+            <p>I love coding but also:</p>
+            <ul>
+                <li>Reading historical books</li>
+                <li>Watching historical contents</li>
+                <li>Exploring nature</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="section-content">
+            <h2>Contact</h2>
+            <p>I am available on:</p>
+            <ul>
+                <li>Email: ghadageshivani2006@gmail.com</li>
+                <li>Phone: 9890052633</li>
+        </div>
+    </section>
+
+    <footer>
+        <p style="font-size: 14px">&copy; 2025 Shivani Ghadage</p>
+    </footer>
+    
+     
+</body>
